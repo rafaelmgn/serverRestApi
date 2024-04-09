@@ -41,7 +41,7 @@ newman run ServeRest.postman_collection.json -e ServeRest.postman_environment.js
 ```
 - Para rodar os testes e gerar o relatório, execute o comando no terminal:
 ```
-newman run ServeRest.postman_collection.json -e ServeRest.postman_environment.json -r cli,htmlextra
+newman run ServeRest.postman_collection.json -e ServeRest.postman_environment.json -r htmlextra
 ```
 #### Informaçoes adicionais
 - `newman run`: Este é o comando principal do Newman para executar coleções de testes.
